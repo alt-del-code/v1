@@ -1242,7 +1242,7 @@ async function getConfiguredImageService() {
   if (!globalThis?.astroAsset?.imageService) {
     const { default: service } = await import(
       // @ts-expect-error
-      './sharp_kXona3KP.mjs'
+      './sharp_DYz5S_Wj.mjs'
     ).catch((e) => {
       const error = new AstroError(InvalidImageService);
       error.cause = e;
@@ -1405,7 +1405,7 @@ function applyResponsiveAttributes({
   return attributes;
 }
 
-const $$Astro$1 = createAstro("https://www.krrishco.com");
+const $$Astro$1 = createAstro("https://alt-del-code.github.io/v1/");
 const $$Image = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$Image;
@@ -1440,7 +1440,7 @@ const $$Image = createComponent(async ($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<img${addAttribute(image.src, "src")}${spreadAttributes(attributes)}${addAttribute(attributes.class, "class")}>`;
 }, "D:/krrish/v1/node_modules/astro/components/Image.astro", void 0);
 
-const $$Astro = createAstro("https://www.krrishco.com");
+const $$Astro = createAstro("https://alt-del-code.github.io/v1/");
 const $$Picture = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Picture;
